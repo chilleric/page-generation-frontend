@@ -13,4 +13,12 @@ export const NavBarItems: NavBarItemType[] = [
       { label: 'Create User', path: '/user/create' },
     ],
   },
+  {
+    label: 'Inventory',
+    path: '/inventory',
+    children: [
+      { label: 'Inventory Management', path: '/inventory/management' },
+      { label: 'Create Inventory', path: '/inventory/create' },
+    ],
+  },
 ]
